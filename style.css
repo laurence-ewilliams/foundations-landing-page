@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --main-bg-color: #1F2937;
+    --main-text-color: #F9FAF8;
+    --secondary-text-color: #E5E7EB;
+    --info-text-color: #1F2937;
+    --button-color: #3882F6;
+    --quote-bg-color: #E5E7EB;
+    --quote-text-color: #1F2937;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header, .hero, footer, .quote, .call-to-action, .subtexts-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.header {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero {
+    background-color: var(--main-bg-color);
+    color: var(--secondary-text-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-container {
+    max-width: 500px;
+}
+
+.information {
+    text-align: center;
+    background-color: var(--main-text-color);
+    padding: 20px 150px;
+    margin-bottom: 50px;
+}
+
+.subtexts-container {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.subtexts {
+    max-width: 200px;
+}
+
+.subtexts img {
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: var(--quote-bg-color);
+}
+
+.blue-box {
+    background-color: var(--button-color);
+}
+
+footer {
+    background-color: var(--main-bg-color);
+}
